@@ -1,0 +1,171 @@
+#A NOTE ON THIS FORMAT
+#The software only requires these tags :
+#<CONSTRAINTS>, <GENETREE>,<SPECIESTREE>, <GENESPECIESMAPPING>,<TREEID>
+#The rest is optional and is there only for the human eyes
+
+
+
+<INSTANCE>
+<NBCONSTRAINTS>
+6
+</NBCONSTRAINTS>
+<NBBADPARALOGS>
+2
+</NBBADPARALOGS>
+<NBGOODORTHOLOGS>
+4
+</NBGOODORTHOLOGS>
+<NBLEAVES>
+15
+</NBLEAVES>
+<CONSTRAINTS>
+
+Danio rerio_ENSDARG00000075721:Homo sapiens_ENSG00000023041
+Danio rerio_ENSDARG00000075721:Mus musculus_ENSMUSG00000024982
+Homo sapiens_ENSG00000023041:Mus musculus_ENSMUSG00000024982
+Oryzias latipes_ENSORLG00000020332:Tetraodon nigroviridis_ENSTNIG00000004699
+Gasterosteus aculeatus_ENSGACG00000004937:Tetraodon nigroviridis_ENSTNIG00000004699
+Danio rerio_ENSDARG00000007808:Gasterosteus aculeatus_ENSGACG00000007213
+</CONSTRAINTS>
+<GENETREE>
+(((Danio rerio_ENSDARG00000075721, (Gasterosteus aculeatus_ENSGACG00000002103, Oryzias latipes_ENSORLG00000008423)speciation)speciation, (Homo sapiens_ENSG00000023041, Mus musculus_ENSMUSG00000024982)dubious NAD)speciation, (((Danio rerio_ENSDARG00000015989, (Oryzias latipes_ENSORLG00000020332, (Gasterosteus aculeatus_ENSGACG00000004937, Tetraodon nigroviridis_ENSTNIG00000004699)speciation)dubious NAD)speciation, (Danio rerio_ENSDARG00000007808, ((Gasterosteus aculeatus_ENSGACG00000007213, Oryzias latipes_ENSORLG00000008594)speciation, Tetraodon nigroviridis_ENSTNIG00000016520)speciation)speciation)duplication, (Mus musculus_ENSMUSG00000025157, Homo sapiens_ENSG00000171307)dubious)speciation)duplication;
+</GENETREE>
+<SPECIESTREE>
+((((gasterosteus aculeatus, oryzias latipes), tetraodon nigroviridis), danio rerio), (mus musculus, homo sapiens));
+</SPECIESTREE>
+<GENESPECIESMAPPING>
+Danio rerio_ENSDARG00000075721:Danio rerio
+Gasterosteus aculeatus_ENSGACG00000002103:Gasterosteus aculeatus
+Oryzias latipes_ENSORLG00000008423:Oryzias latipes
+Homo sapiens_ENSG00000023041:Homo sapiens
+Mus musculus_ENSMUSG00000024982:Mus musculus
+Danio rerio_ENSDARG00000015989:Danio rerio
+Oryzias latipes_ENSORLG00000020332:Oryzias latipes
+Gasterosteus aculeatus_ENSGACG00000004937:Gasterosteus aculeatus
+Tetraodon nigroviridis_ENSTNIG00000004699:Tetraodon nigroviridis
+Danio rerio_ENSDARG00000007808:Danio rerio
+Gasterosteus aculeatus_ENSGACG00000007213:Gasterosteus aculeatus
+Oryzias latipes_ENSORLG00000008594:Oryzias latipes
+Tetraodon nigroviridis_ENSTNIG00000016520:Tetraodon nigroviridis
+Mus musculus_ENSMUSG00000025157:Mus musculus
+Homo sapiens_ENSG00000171307:Homo sapiens
+</GENESPECIESMAPPING>
+<TREEID>
+ENSGT00660000095513
+</TREEID>
+</INSTANCE>
+
+
+
+
+
+
+
+<INSTANCE>
+<NBCONSTRAINTS>
+18
+</NBCONSTRAINTS>
+<NBBADPARALOGS>
+9
+</NBBADPARALOGS>
+<NBGOODORTHOLOGS>
+9
+</NBGOODORTHOLOGS>
+<NBLEAVES>
+13
+</NBLEAVES>
+<CONSTRAINTS>
+
+Danio rerio_ENSDARG00000088925:Oryzias latipes_ENSORLG00000016166
+Danio rerio_ENSDARG00000088925:Gasterosteus aculeatus_ENSGACG00000011089
+Danio rerio_ENSDARG00000088925:Tetraodon nigroviridis_ENSTNIG00000012461
+Oryzias latipes_ENSORLG00000016166:Tetraodon nigroviridis_ENSTNIG00000012461
+Gasterosteus aculeatus_ENSGACG00000011089:Tetraodon nigroviridis_ENSTNIG00000012461
+Danio rerio_ENSDARG00000088925:Mus musculus_ENSMUSG00000027546
+Oryzias latipes_ENSORLG00000016166:Mus musculus_ENSMUSG00000027546
+Gasterosteus aculeatus_ENSGACG00000011089:Mus musculus_ENSMUSG00000027546
+Tetraodon nigroviridis_ENSTNIG00000012461:Mus musculus_ENSMUSG00000027546
+Danio rerio_ENSDARG00000088925:Homo sapiens_ENSG00000054793
+Oryzias latipes_ENSORLG00000016166:Homo sapiens_ENSG00000054793
+Gasterosteus aculeatus_ENSGACG00000011089:Homo sapiens_ENSG00000054793
+Tetraodon nigroviridis_ENSTNIG00000012461:Homo sapiens_ENSG00000054793
+Danio rerio_ENSDARG00000062521:Gasterosteus aculeatus_ENSGACG00000002539
+Danio rerio_ENSDARG00000062521:Mus musculus_ENSMUSG00000024566
+Gasterosteus aculeatus_ENSGACG00000002539:Mus musculus_ENSMUSG00000024566
+Danio rerio_ENSDARG00000062521:Homo sapiens_ENSG00000166377
+Gasterosteus aculeatus_ENSGACG00000002539:Homo sapiens_ENSG00000166377
+</CONSTRAINTS>
+<GENETREE>
+(((Danio rerio_ENSDARG00000088925, (Oryzias latipes_ENSORLG00000016166, (Gasterosteus aculeatus_ENSGACG00000011089, Tetraodon nigroviridis_ENSTNIG00000012461)speciation)dubious NAD)speciation, (Mus musculus_ENSMUSG00000027546, Homo sapiens_ENSG00000054793)dubious)dubious NAD NAD NAD NAD NAD NAD NAD NAD, ((Danio rerio_ENSDARG00000062521, ((Gasterosteus aculeatus_ENSGACG00000002539, Oryzias latipes_ENSORLG00000008869)speciation, (Tetraodon nigroviridis_ENSTNIG00000002928, Tetraodon nigroviridis_ENSTNIG00000003183)duplication)speciation)speciation, (Mus musculus_ENSMUSG00000024566, Homo sapiens_ENSG00000166377)speciation)speciation)duplication;
+</GENETREE>
+<SPECIESTREE>
+((((gasterosteus aculeatus, oryzias latipes), tetraodon nigroviridis), danio rerio), (mus musculus, homo sapiens));
+</SPECIESTREE>
+<GENESPECIESMAPPING>
+Danio rerio_ENSDARG00000088925:Danio rerio
+Oryzias latipes_ENSORLG00000016166:Oryzias latipes
+Gasterosteus aculeatus_ENSGACG00000011089:Gasterosteus aculeatus
+Tetraodon nigroviridis_ENSTNIG00000012461:Tetraodon nigroviridis
+Mus musculus_ENSMUSG00000027546:Mus musculus
+Homo sapiens_ENSG00000054793:Homo sapiens
+Danio rerio_ENSDARG00000062521:Danio rerio
+Gasterosteus aculeatus_ENSGACG00000002539:Gasterosteus aculeatus
+Oryzias latipes_ENSORLG00000008869:Oryzias latipes
+Tetraodon nigroviridis_ENSTNIG00000002928:Tetraodon nigroviridis
+Tetraodon nigroviridis_ENSTNIG00000003183:Tetraodon nigroviridis
+Mus musculus_ENSMUSG00000024566:Mus musculus
+Homo sapiens_ENSG00000166377:Homo sapiens
+</GENESPECIESMAPPING>
+<TREEID>
+ENSGT00550000074723
+</TREEID>
+</INSTANCE>
+
+
+
+
+
+
+
+
+
+<INSTANCE>
+<NBCONSTRAINTS>
+1
+</NBCONSTRAINTS>
+<NBBADPARALOGS>
+1
+</NBBADPARALOGS>
+<NBGOODORTHOLOGS>
+0
+</NBGOODORTHOLOGS>
+<NBLEAVES>
+11
+</NBLEAVES>
+<CONSTRAINTS>
+
+Gasterosteus aculeatus_ENSGACG00000007592:Oryzias latipes_ENSORLG00000017756
+</CONSTRAINTS>
+<GENETREE>
+(((Danio rerio_ENSDARG00000076768, (Tetraodon nigroviridis_ENSTNIG00000005471, Oryzias latipes_ENSORLG00000016343)speciation)speciation, (Homo sapiens_ENSG00000169891, Mus musculus_ENSMUSG00000040855)speciation)speciation, ((Danio rerio_ENSDARG00000002877, ((Gasterosteus aculeatus_ENSGACG00000007592, Tetraodon nigroviridis_ENSTNIG00000012206)speciation, Oryzias latipes_ENSORLG00000017756)dubious NAD)speciation, (Mus musculus_ENSMUSG00000019854, Homo sapiens_ENSG00000135597)dubious)speciation)duplication;
+</GENETREE>
+<SPECIESTREE>
+((((gasterosteus aculeatus, oryzias latipes), tetraodon nigroviridis), danio rerio), (mus musculus, homo sapiens));
+</SPECIESTREE>
+<GENESPECIESMAPPING>
+Danio rerio_ENSDARG00000076768:Danio rerio
+Tetraodon nigroviridis_ENSTNIG00000005471:Tetraodon nigroviridis
+Oryzias latipes_ENSORLG00000016343:Oryzias latipes
+Homo sapiens_ENSG00000169891:Homo sapiens
+Mus musculus_ENSMUSG00000040855:Mus musculus
+Danio rerio_ENSDARG00000002877:Danio rerio
+Gasterosteus aculeatus_ENSGACG00000007592:Gasterosteus aculeatus
+Tetraodon nigroviridis_ENSTNIG00000012206:Tetraodon nigroviridis
+Oryzias latipes_ENSORLG00000017756:Oryzias latipes
+Mus musculus_ENSMUSG00000019854:Mus musculus
+Homo sapiens_ENSG00000135597:Homo sapiens
+</GENESPECIESMAPPING>
+<TREEID>
+ENSGT00530000063792
+</TREEID>
+</INSTANCE>
