@@ -9,7 +9,8 @@ The input is given as a .parc file, which can contain a list of trees to correct
 The format of the .parc file is a pseudo-xml format (see test.parc for an example).
 The file has no root node and tag opening/closing must be preceded and followed by a newline character..
 Each tree to correct is contained in a
-<INSTANCE>
+```
+\<INSTANCE\>
 ...
 </INSTANCE>
 tag.  Each instance tag must contain the child tags : 
@@ -42,7 +43,7 @@ gene_name1:gene_name2
 The given constraints do not need to be symmetric (ie gene_name2:gene_name1 does not need to be included - the output is unmodified whether it is included or not).
 ]
 </CONSTRAINTS>
-
+```
 
 The output is a pseudo-xml with the following fields (one instance per tree): 
 <INSTANCE>
@@ -77,5 +78,7 @@ Command line arguments
 ----------------------
 
 -i [infile] : infile is the .parc file that contains the required trees to correct/orthologies
+
 -o [outfile]: (optional) the output is written in outfile, or on stdout if no outfile is specified
+
 -f [old|new] : (optional, default=new) for backwards compatibility, setting -f old formats the output as in the older versions
