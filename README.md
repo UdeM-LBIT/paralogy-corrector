@@ -10,7 +10,7 @@ The format of the .parc file is a pseudo-xml format (see test.parc for an exampl
 The file has no root node and tag opening/closing must be preceded and followed by a newline character..
 Each tree to correct is contained in a
 ```
-\<INSTANCE\>
+<INSTANCE>
 ...
 </INSTANCE>
 tag.  Each instance tag must contain the child tags : 
